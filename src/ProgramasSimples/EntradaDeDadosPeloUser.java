@@ -1,4 +1,4 @@
-package com.exemplo.basico;
+package ProgramasSimples;
 
 //Este programa testa a entrada de dados do usuario usando
 // o Scanner, permitindo interatividade.

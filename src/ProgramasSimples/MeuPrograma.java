@@ -1,6 +1,6 @@
 
 // Declaração de pacote
-package com.exemplo.basico;
+package ProgramasSimples;
 
 //Importação de classes
 import java.util.Scanner;

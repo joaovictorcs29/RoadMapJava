@@ -1,4 +1,4 @@
-package com.exemplo.basico;
+package ProgramasSimples;
 
 public class EstruturasDeControleCondicionalElacos {
     public static void main(String[] args) {

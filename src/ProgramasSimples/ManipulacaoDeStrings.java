@@ -1,4 +1,4 @@
-package com.exemplo.basico;
+package ProgramasSimples;
 
 
 //Este programa verifica a manipulacao basica de strings, como concatenacao

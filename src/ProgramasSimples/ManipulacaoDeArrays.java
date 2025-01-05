@@ -1,4 +1,4 @@
-package com.exemplo.basico;
+package ProgramasSimples;
 
 //Este programa testa a criacao e manipulacao de arrays em Java, como acessar e modificar elementos.
 

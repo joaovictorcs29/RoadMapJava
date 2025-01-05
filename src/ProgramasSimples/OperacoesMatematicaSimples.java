@@ -1,4 +1,4 @@
-package com.exemplo.basico;
+package ProgramasSimples;
 
 public class OperacoesMatematicaSimples {
     public static void main(String[] args) {
