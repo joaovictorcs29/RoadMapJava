@@ -1,4 +1,4 @@
-package com.exemplo.basico.programasSimplesOB;
+package FundamentosDaLinguagem.programasSimplesOB;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ProgramasSimples;
+package FundamentosDaLinguagem.ProgramasSimples;
 
 //Este programa testa a criacao e manipulacao de arrays em Java, como acessar e modificar elementos.
 

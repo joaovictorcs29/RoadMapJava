@@ -1,4 +1,4 @@
-package ProgramasSimples;
+package FundamentosDaLinguagem.ProgramasSimples;
 
 import java.util.Scanner;
 

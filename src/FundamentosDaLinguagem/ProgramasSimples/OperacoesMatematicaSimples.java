@@ -1,4 +1,4 @@
-package ProgramasSimples;
+package FundamentosDaLinguagem.ProgramasSimples;
 
 public class OperacoesMatematicaSimples {
     public static void main(String[] args) {

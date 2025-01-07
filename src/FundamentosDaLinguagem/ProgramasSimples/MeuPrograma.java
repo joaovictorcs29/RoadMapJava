@@ -1,6 +1,6 @@
 
 // Declaração de pacote
-package ProgramasSimples;
+package FundamentosDaLinguagem.ProgramasSimples;
 
 //Importação de classes
 import java.util.Scanner;

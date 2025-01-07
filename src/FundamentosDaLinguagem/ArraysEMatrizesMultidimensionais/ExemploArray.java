@@ -1,4 +1,4 @@
-package ArraysEMatrizesMultidimensionais;
+package FundamentosDaLinguagem.ArraysEMatrizesMultidimensionais;
 
 public class ExemploArray {
     public static void main(String[] args) {

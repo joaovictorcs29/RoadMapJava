@@ -1,4 +1,4 @@
-package com.exemplo.basico.programasSimplesOB;
+package FundamentosDaLinguagem.programasSimplesOB;
 
 public class OperacoesMatematicas {
 

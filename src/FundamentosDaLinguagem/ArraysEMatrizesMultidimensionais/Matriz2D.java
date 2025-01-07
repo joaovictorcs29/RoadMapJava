@@ -1,4 +1,4 @@
-package ArraysEMatrizesMultidimensionais;
+package FundamentosDaLinguagem.ArraysEMatrizesMultidimensionais;
 
 public class Matriz2D {
     public static void main(String[] args) {

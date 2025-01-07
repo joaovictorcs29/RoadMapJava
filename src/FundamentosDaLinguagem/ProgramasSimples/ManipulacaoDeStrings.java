@@ -1,4 +1,4 @@
-package ProgramasSimples;
+package FundamentosDaLinguagem.ProgramasSimples;
 
 
 //Este programa verifica a manipulacao basica de strings, como concatenacao

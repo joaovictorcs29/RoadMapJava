@@ -1,4 +1,4 @@
-package ProgramasSimples;
+package FundamentosDaLinguagem.ProgramasSimples;
 
 public class FuncoesEmetodos {
     public static void main(String[] args) {
