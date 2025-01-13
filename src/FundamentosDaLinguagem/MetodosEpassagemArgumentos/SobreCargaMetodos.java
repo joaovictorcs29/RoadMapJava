@@ -7,10 +7,12 @@ public class SobreCargaMetodos {
         System.out.println(somar(22.5, 30.5)); //Chamando versão com dois doubles
     }
 
+    //Metodo com dois inteiros
     public static int somar (int a, int b) {
         return a + b;
     }
 
+    //Metodo com dois doubles
     public static double somar (double a, double b) {
         return a + b;
     }
