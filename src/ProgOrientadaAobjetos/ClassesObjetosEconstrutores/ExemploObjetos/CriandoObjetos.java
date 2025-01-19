@@ -2,7 +2,7 @@ package ProgOrientadaAobjetos.ClassesObjetosEconstrutores.ExemploObjetos;
 
 import ProgOrientadaAobjetos.ClassesObjetosEconstrutores.EstruturaClasse.Carro;
 
-//No lugar de "CriandoObjetos" posso deixar como Main
+
 public class CriandoObjetos {
     public static void main(String[] args) {
         // Criando um objeto da Classe Carro
@@ -16,5 +16,4 @@ public class CriandoObjetos {
         //Chamando um metodo do objeto
         meuCarro.exibirInformacoes();
     }
-
 }
