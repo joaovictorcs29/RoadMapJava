@@ -9,9 +9,10 @@ public class CriandoObjetos {
         Carro meuCarro = new Carro();
 
         //Atribuindo valores aos atributos do objeto
-        meuCarro.modelo = "Fusca";
+        /*meuCarro.modelo = "Fusca";
         meuCarro.ano = 1970;
         meuCarro.preco = 15000.0;
+         */
 
         //Chamando um metodo do objeto
         meuCarro.exibirInformacoes();
