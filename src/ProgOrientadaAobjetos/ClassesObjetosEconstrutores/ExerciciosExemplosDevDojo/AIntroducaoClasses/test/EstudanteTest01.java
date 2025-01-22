@@ -1,6 +1,6 @@
-package ProgOrientadaAobjetos.ClassesObjetosEconstrutores.ExerciciosExemplosDevDojo.dominio.IntroducaoClasses01.test;
+package ProgOrientadaAobjetos.ClassesObjetosEconstrutores.ExerciciosExemplosDevDojo.AIntroducaoClasses.test;
 
-import ProgOrientadaAobjetos.ClassesObjetosEconstrutores.ExerciciosExemplosDevDojo.dominio.IntroducaoClasses01.Estudante01;
+import ProgOrientadaAobjetos.ClassesObjetosEconstrutores.ExerciciosExemplosDevDojo.AIntroducaoClasses.Estudante01;
 
 public class EstudanteTest01 {
     public static void main(String[] args) {
