@@ -4,25 +4,14 @@ import ProgOrientadaAobjetos.ClassesObjetosEconstrutores.Bintroducaometodos.Exer
 
 import java.util.Scanner;
 
-public class Salario01 {
+public class Funcionario01 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
-        Funcionario funcionario = new Funcionario("Joao", 21, 1500.0,
-                2000, 3500);
+        double[] salario = new double[3];
+        Funcionario funcionario = new Funcionario("Joao", 21, salario);
 
+        funcionario.tiraMediaSalarial(salario);
         funcionario.imprimeDados();
-        funcionario.tiraMediaSalarial();
 
-
-
-
-
-
-
-
-
-
-        scanner.close();
     }
 }
