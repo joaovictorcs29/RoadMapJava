@@ -6,12 +6,12 @@ import java.util.Scanner;
 public class Funcionario {
     private String nome;
     private int idade;
-    private double[] salario;
+    private double[] salarios;
 
-    public Funcionario (String nome, int idade, double[] salario){
+    public Funcionario (String nome, int idade, double[] salarios){
         this.nome = nome;
         this.idade = idade;
-        this.salario = salario;
+        this.salarios = salarios;
     }
 
     public String getNome() {
@@ -30,34 +30,45 @@ public class Funcionario {
         this.idade = idade;
     }
 
-    public double[] getSalario(){
-        return salario;
+    public double[] getSalarios(){
+        return salarios;
     }
 
-    public void setSalario(double[] salario) {
-        this.salario = salario;
+    public void setSalarios(double[] salarios) {
+        this.salarios = salarios;
     }
 
     public void imprimeDados() {
         System.out.println("Nome: " + getNome());
         System.out.println("Idade: " + getIdade());
-        System.out.println("Salarios: " + Arrays.toString(getSalario()));
-
+        tiraMediaSalarial();
     }
 
-    public void tiraMediaSalarial(double[] salario) {
-        Scanner scanner = new Scanner(System.in);
-        double media = 0;
-        for (int i = 0; i < salario.length; i++) {
-            System.out.print("Digite o pagamento " + (i + 1) + ": " );
-            double pagamento = scanner.nextInt();
-            salario[i] = pagamento;
-            System.out.println("Salario " + (i + 1) + " = " + salario[i]);
+    public void imprimeSalarios () {
+        System.out.println(Arrays.toString(getSalarios()));
+    }
 
-            media += salario[i];
+    public void preencheSalarios () {
+        Scanner scanner = new Scanner(System.in);
+        for (int i = 0; i < salarios.length; i++) {
+            System.out.print("Digite o pagamento " + (i + 1) + ": ");
+            double pagamento = scanner.nextInt();
+            salarios[i] = pagamento;
+            System.out.println("Salario " + (i + 1) + " = " + salarios[i]);
+        }
+        imprimeSalarios();
+        scanner.close();
+    }
+
+    public void tiraMediaSalarial() {
+        preencheSalarios();
+        double media = 0;
+        for (double salario : salarios) {
+            media += salario;
         }
 
-        System.out.println("Media: " + media / salario.length);
-        scanner.close();
+        media /= salarios.length;
+        System.out.println("Media: " + media);
+
     }
 }
