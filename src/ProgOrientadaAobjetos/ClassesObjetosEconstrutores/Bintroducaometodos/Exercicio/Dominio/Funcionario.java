@@ -8,7 +8,7 @@ public class Funcionario {
     private int idade;
     private double[] salarios;
 
-    public Funcionario (String nome, int idade, double[] salarios){
+    public Funcionario (String nome, int idade){
         this.nome = nome;
         this.idade = idade;
         this.salarios = salarios;
@@ -34,22 +34,12 @@ public class Funcionario {
         return salarios;
     }
 
-    public void setSalarios(double[] salarios) {
-        this.salarios = salarios;
-    }
-
-    public void imprimeDados() {
-        System.out.println("Nome: " + getNome());
-        System.out.println("Idade: " + getIdade());
-        tiraMediaSalarial();
-    }
-
-    public void imprimeSalarios () {
-        System.out.println(Arrays.toString(getSalarios()));
-    }
-
-    public void preencheSalarios () {
+    public void pagaSalarios() {
         Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite a quantidade de salarios a serem pagos: ");
+        int qtdSalarios = scanner.nextInt();
+        salarios = new double[qtdSalarios];
         for (int i = 0; i < salarios.length; i++) {
             System.out.print("Digite o pagamento " + (i + 1) + ": ");
             double pagamento = scanner.nextInt();
@@ -61,7 +51,7 @@ public class Funcionario {
     }
 
     public void tiraMediaSalarial() {
-        preencheSalarios();
+        pagaSalarios();
         double media = 0;
         for (double salario : salarios) {
             media += salario;
@@ -69,6 +59,15 @@ public class Funcionario {
 
         media /= salarios.length;
         System.out.println("Media: " + media);
+    }
 
+    public void imprimeSalarios () {
+        System.out.println("Salários: " + Arrays.toString(getSalarios()));
+    }
+
+    public void imprimeDados() {
+        System.out.println("Nome: " + getNome());
+        System.out.println("Idade: " + getIdade());
+        tiraMediaSalarial();
     }
 }

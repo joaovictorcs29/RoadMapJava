@@ -5,8 +5,8 @@ import ProgOrientadaAobjetos.ClassesObjetosEconstrutores.Bintroducaometodos.Exer
 public class FuncionarioTest01 {
     public static void main(String[] args) {
 
-        double[] salario = new double[3];
-        Funcionario funcionario = new Funcionario("Joao", 21, salario);
+
+        Funcionario funcionario = new Funcionario("Joao", 21);
 
         //funcionario.tiraMediaSalarial();
         funcionario.imprimeDados();
