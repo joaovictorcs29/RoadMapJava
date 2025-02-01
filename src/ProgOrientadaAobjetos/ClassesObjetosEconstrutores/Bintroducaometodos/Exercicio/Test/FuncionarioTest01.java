@@ -10,6 +10,5 @@ public class FuncionarioTest01 {
 
         //funcionario.tiraMediaSalarial();
         funcionario.imprimeDados();
-
     }
 }
