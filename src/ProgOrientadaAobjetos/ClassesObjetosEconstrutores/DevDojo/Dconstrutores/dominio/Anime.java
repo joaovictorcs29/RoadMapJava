@@ -5,21 +5,23 @@ public class Anime {
     private String tipo;
     private int episodios;
     private String genero;
+    private String estudio;
 
-    public void init(String nome, String tipo, int episodios) {
+    public Anime(String nome, String tipo, int episodios, String genero){
+        this();
         this.nome = nome;
         this.tipo = tipo;
         this.episodios = episodios;
-
-        /*nao colocamos o atributo "Genero" porque pode quebrar o codigo de outros colegas da empresa
-        ja que o requisito foi "pedido" depois do metodo ter sido criado. Entao vamos criar um outro metodo
-        para isso
-          */
+        this.genero = genero;
     }
 
-    public void init(String nome, String tipo, int episodios, String genero) {
-        this.init(nome, tipo, episodios); // assim evitamos repetir codigo
-        this.genero = genero;
+    public Anime(String nome, String tipo, int episodios, String genero, String estudio){
+        this(nome, tipo, episodios, genero); // o this precisa ser a primeira linha executavel
+        this.estudio = estudio;
+    }
+
+    public Anime(){
+        System.out.println("Construtor sem argumentos");
     }
 
     public void imprime(){
@@ -27,6 +29,7 @@ public class Anime {
         System.out.println(this.tipo);
         System.out.println(this.episodios);
         System.out.println(this.genero);
+        System.out.println(this.estudio);
     }
 
     public String getGenero() {
