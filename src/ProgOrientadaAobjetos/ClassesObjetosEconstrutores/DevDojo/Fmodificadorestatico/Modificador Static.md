@@ -14,3 +14,6 @@ Ele serve pra modificar toda classe instanciada, nao apenas uma instancia em esp
 
 - Podemos utilizar metodos estaticos quando o metodo nao esta acessando os atribut9os nao estaticos da classe.
 
+---
+## Bloco de inicializacao Estatico
+É inicializado apenas uma vez na classe
