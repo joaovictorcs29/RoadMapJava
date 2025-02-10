@@ -28,3 +28,8 @@ criei um array de Jogadores(objeto), fiz o foreach para percorrer o array de obj
 # 67 - Orientação Objetos - Associação pt 04 - Associação bidirecional
 
 ![img.png](img.png)
+
+# 68 - Orientação Objetos - Leitura de dados pelo console
+
+- instancia a classe Scanner e passa como argumento o System.in
+- 
