@@ -22,3 +22,9 @@ criei um array de Jogadores(objeto), fiz o foreach para percorrer o array de obj
 4. Criei a classe EscolaTest01 de execução onde instanciei 2 professores
 5. Ainda no EscolaTest01 coloquei os 2 professores dentro do array de professores.
 6. EscolaTest01, por fim, instanciei a escola passando como argumento o nome da escola e o array de professores. Concluindo a associação muitos para um
+
+---
+
+# 67 - Orientação Objetos - Associação pt 04 - Associação bidirecional
+
+![img.png](img.png)
