@@ -12,11 +12,13 @@
 
 ## Herança pt 03 - protected
 
-- Protected vai dar acesso direto a variavel em todas as subclasses, porem todas as classes do mesmo pacote terao acesso também.
+- Protected vai dar acesso direto a variavel em todas as subclasses, porem todas as classes do mesmo pacote terao acesso
+  também.
 
 ## 74 - Orientação Objetos - Herança pt 04 - Construtores
 
-- Para extender uma classe o construtor da subclasse precisa do super(atributo), atributos especificos da subclasse continuam usando this.atributo
+- Para extender uma classe o construtor da subclasse precisa do super(atributo), atributos especificos da subclasse
+  continuam usando this.atributo
 
 ## 75 - Orientação Objetos - Herança pt 05 - Sequência de inicialização
 
