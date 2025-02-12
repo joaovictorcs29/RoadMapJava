@@ -8,6 +8,7 @@ O sistema deverá cadastrar seminários, estudantes, professores e local onde se
 - Um seminário deve ter um local
 
 ### Campos básicos (Excluindo relacionamento)
+
 1. Seminário: título
 2. Aluno: nome e idade
 3. Professor: nome, especialidade
