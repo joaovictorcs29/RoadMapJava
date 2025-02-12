@@ -3,9 +3,19 @@ package ProgOrientadaAobjetos.ClassesObjetosEconstrutores.DevDojo.Hheranca.domin
 public class Funcionario extends Pessoa {
 
     private double salario;
+    static {
+        System.out.println("Dentro do bloco de inicializacao estatico de Funcionario");
+    }
+    {
+        System.out.println("Dentro do bloco inicializacao de Funcionario 1");
+    }
+    {
+        System.out.println("Dentro do bloco inicializacao de Funcionario 2 ");
+    }
 
     public Funcionario (String nome){
         super(nome); // construtor da subclasse precisa do super para reconhecer os atributos da superclasse
+        System.out.println("Dentro do construtor de funcionario");
     }
 
     @Override
