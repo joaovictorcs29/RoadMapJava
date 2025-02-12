@@ -6,6 +6,10 @@
   **Exemplo:**
 - A classe Funcionario (subclasse) herda a classe Pessoa, pois a um funcionário é uma pessoa.
 
-## Heraça pt 02 - Super
+## Herança pt 02 - Super
 
 - Utilizando super, conseguimos acessar na subclasse as definições feitas na superclasse.
+
+## Herança pt 03 - protected
+
+- Protected vai dar acesso direto a variavel em todas as subclasses, porem todas as classes do mesmo pacote terao acesso também.
