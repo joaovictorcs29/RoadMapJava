@@ -5,6 +5,9 @@ public class Carro {
     public static final double VELOCIDADE_LIMITE = 250;
     public final Comprador COMPRADOR = new Comprador();//Significa que a referencia Comprador desse objeto nunca pode ser alterada
 
+    public void imprime(){
+        System.out.println(this.nome);
+    }
     public String getNome() {
         return nome;
     }
