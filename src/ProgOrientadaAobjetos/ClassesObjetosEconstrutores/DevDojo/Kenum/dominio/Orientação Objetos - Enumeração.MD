@@ -13,3 +13,6 @@
 
 - Metodo abstrato: Para dizer que o metodo nao faz nada, e quem faz são suas implementações (Override = sobrescrita). Use abstract, exemplo: public abstract double calcularDesconto(double valor);
 - Podemos agora utilizar o metodo baseado no valor da enumeracao.
+
+## 83 - Orientação Objetos - Enumeração pt 04 - Busca por atributos
+
