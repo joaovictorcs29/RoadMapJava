@@ -8,3 +8,8 @@
 ## 81 - Orientação Objetos - Enumeração pt 02 - Construtores e atributos
 
 - Posso passar na classe enum, nos atributos que estao em uppercase valores. Exemplo: PESSOA_FISICA(valor: 1,  nomeRelatorio: "Pessoa Fisica")
+
+## 82 - Orientação Objetos - Enumeração pt 03 - Sobrescrita de métodos
+
+- Metodo abstrato: Para dizer que o metodo nao faz nada, e quem faz são suas implementações (Override = sobrescrita). Use abstract, exemplo: public abstract double calcularDesconto(double valor);
+- Podemos agora utilizar o metodo baseado no valor da enumeracao.
