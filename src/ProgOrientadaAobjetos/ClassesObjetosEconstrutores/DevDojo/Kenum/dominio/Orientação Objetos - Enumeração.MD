@@ -16,3 +16,4 @@
 
 ## 83 - Orientação Objetos - Enumeração pt 04 - Busca por atributos
 
+- value() = array de objetos da classe.
