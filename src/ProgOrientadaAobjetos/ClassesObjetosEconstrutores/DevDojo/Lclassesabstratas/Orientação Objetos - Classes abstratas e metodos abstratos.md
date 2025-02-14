@@ -20,5 +20,8 @@
 
 ## 86 - Orientação Objetos - Classes abstratas pt 03 - Métodos abstratos regras
 
-- Regra: Se eu tiver uma classe abstrata e outra classe abstrata estender ela, nao sou obrigado a implementar a classe superior(super) a ela. Porém, a primeira classe que estender essa classe, precisará implementá-la.
-- Não podemos ter múltiplas heranças, mas podemos ter hierarquia maior. Exemplo: Gerente é Funcionário e funcionário é Pessoa. Sendo assim, [filho] -> [pai] -> [avô].
+- Regra: Se eu tiver uma classe abstrata e outra classe abstrata estender ela, nao sou obrigado a implementar a classe
+  superior(super) a ela. Porém, a primeira classe que estender essa classe, precisará implementá-la.
+- Não podemos ter múltiplas heranças, mas podemos ter hierarquia maior. Exemplo: Gerente é Funcionário e funcionário é
+  Pessoa. Sendo assim, [filho] -> [pai] -> [avô].
+
