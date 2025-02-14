@@ -7,4 +7,8 @@
 - Todos os métodos de uma interface são public abstract, então não precisa especificar.
 - em vez de extends, usamos implements
 
+## 88 - Orientação Objetos - Interfaces pt 02 - Implementando múltiplas interfaces
+
+- Quando trabalhamos com interface, podemos fazer a implementação de múltiplas interfaces
+- usamos o default para criar metodos concretos na interface, podemos sobrescrever(implementar) normalmente.
 
