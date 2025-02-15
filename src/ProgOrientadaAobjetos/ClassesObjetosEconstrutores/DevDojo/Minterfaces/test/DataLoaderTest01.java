@@ -1,5 +1,6 @@
 package ProgOrientadaAobjetos.ClassesObjetosEconstrutores.DevDojo.Minterfaces.test;
 
+import ProgOrientadaAobjetos.ClassesObjetosEconstrutores.DevDojo.Minterfaces.dominio.DataLoader;
 import ProgOrientadaAobjetos.ClassesObjetosEconstrutores.DevDojo.Minterfaces.dominio.DatabaseLoader;
 import ProgOrientadaAobjetos.ClassesObjetosEconstrutores.DevDojo.Minterfaces.dominio.FileLoader;
 
@@ -16,5 +17,7 @@ public class DataLoaderTest01 {
         databaseLoader.checkPermission();
         fileLoader.checkPermission();
 
+        DataLoader.retrieveMaxDataSize();
+        databaseLoader.retrieveMaxDataSize();
     }
 }

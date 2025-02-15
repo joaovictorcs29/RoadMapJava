@@ -12,3 +12,9 @@
 - Quando trabalhamos com interface, podemos fazer a implementação de múltiplas interfaces
 - usamos o default para criar metodos concretos na interface, podemos sobrescrever(implementar) normalmente.
 
+## 89 - Orientação Objetos - Interfaces pt 03 - Atributos e métodos estáticos
+
+- Não podemos criar objetos de interface
+- Podemos ter somente atributos constantes public static final.
+- Quando estamos sobrescrevendo um método, não podemos colocar um modificador de acesso mais restritivo
+- 
