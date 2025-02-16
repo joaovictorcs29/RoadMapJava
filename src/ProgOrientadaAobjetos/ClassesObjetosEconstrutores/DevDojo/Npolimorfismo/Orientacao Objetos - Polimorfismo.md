@@ -16,3 +16,9 @@
 - Polimorfismo = multiplas formas
 
 ![img.png](img.png)
+
+## 92 - Orientação Objetos - Polimorfismo pt 03 - Parâmetros polimórficos
+
+- Superclasse recebendo um objeto da subclasse
+- Vimos que podemos deixar o codigo mais generico, pra reutilizar novamente com outros objetos. 
+- 
