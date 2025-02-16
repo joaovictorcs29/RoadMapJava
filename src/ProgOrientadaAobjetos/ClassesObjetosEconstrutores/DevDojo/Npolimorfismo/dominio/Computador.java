@@ -12,6 +12,4 @@ public class Computador extends Produto {
         System.out.println("Calculando imposto do computador");
         return this.valor * IMPOSTO_POR_CENTO;
     }
-
-
 }

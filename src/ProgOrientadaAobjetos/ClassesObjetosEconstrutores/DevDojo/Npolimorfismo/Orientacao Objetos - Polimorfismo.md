@@ -10,3 +10,9 @@
 3. Criamos uma interface Taxavel que tem um unico metodo calcularImposto(), e coloquei que produto implementa Taxavel,
    assim todo produto precisar implementar o metodo calcularImposto 
 4. Criamos uma Classe de servico para alterar as regras de negocio.
+
+## 91 - Orientação Objetos - Polimorfismo pt 02 - Funcionamento
+
+- Polimorfismo = multiplas formas
+
+![img.png](img.png)
