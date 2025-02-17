@@ -20,5 +20,8 @@
 ## 92 - Orientação Objetos - Polimorfismo pt 03 - Parâmetros polimórficos
 
 - Superclasse recebendo um objeto da subclasse
-- Vimos que podemos deixar o codigo mais generico, pra reutilizar novamente com outros objetos. 
-- 
+- Vimos que podemos deixar o codigo mais generico, pra reutilizar novamente com outros objetos.
+
+## 93 - Orientação Objetos - Polimorfismo pt 04 - Cast e instanceof
+
+- Pra fazer um Cast de um objeto pra outro, precisamos fazer uma verificacao de instancia (instanceof)
