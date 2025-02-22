@@ -1,6 +1,6 @@
 # Estudos em Java
 
-Este repositório serve para documentar minha trajetória em Java. Nele contém exercícios, códigos replicados de aulas e anotações.
+Este repositório serve para documentar minha trajetória em Java. Nele contém exercícios, códigos replicados de aulas e algumas anotações.
 
 ## Conteúdos que estou me baseando para estudar:
 
