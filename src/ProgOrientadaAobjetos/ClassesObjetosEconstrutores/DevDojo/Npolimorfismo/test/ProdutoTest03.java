@@ -15,6 +15,6 @@ public class ProdutoTest03 {
         CalculadoraImposto.calcularImposto(tomate);
         System.out.println("----------");
         CalculadoraImposto.calcularImposto(produto);
-        
+
     }
 }
