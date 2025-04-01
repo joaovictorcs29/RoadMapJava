@@ -1,4 +1,4 @@
-package ProgOrientadaAobjetos.ClassesObjetosEconstrutores.DevDojo.Oexception.test;
+package ProgOrientadaAobjetos.ClassesObjetosEconstrutores.DevDojo.Oexception.error.test;
 
 public class StackOverflowTest01 {
     public static void main(String[] args) {
